@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if [ "$#" -lt 3 ]; then
+   echo "Usage: unzip-and-sync src-bucket src-objet dst-bucket"
+   exit 2
+fi
+
+echo "******************** `date` ****************"
+echo "Args: $0 $1 $2 $3 " >> run-request.log
+
+progname=$0
+srcbucket=$1
+srcobject=$2
+dstbucket=$3
+
+
+if [ -e tmp ]; then
+        rm -rf tmp
+fi
+mkdir -p tmp >> run-request.log
+aws s3 cp s3://${srcbucket}/${srcobject} . >> run-request.log
+cd tmp; unzip ../${srcobject} >> run-request.log
+cd ..
+aws s3 sync ./tmp/ s3://stage.gumsole.com/ --acl 'public-read' --source-region 'us-west-2'   >> $un-request.log

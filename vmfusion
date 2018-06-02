@@ -1,0 +1,6 @@
+export VMRUN=/Applications/VMware Fusion.app/Contents/Library/vmrun
+
+# This is broken
+if [ -f ${VMRUN} ]; then
+	${VMRUN} $@
+fi

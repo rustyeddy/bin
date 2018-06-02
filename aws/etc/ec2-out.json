@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "hostvars": {
+      "34.215.49.61": {
+        "ansible_host": "34.215.49.61", 
+        "ec2__in_monitoring_element": false, 
+        "ec2_account_id": "108522272788", 
+        "ec2_ami_launch_index": "0", 
+        "ec2_architecture": "x86_64", 
+        "ec2_block_devices": {
+          "sda1": "vol-0d1ead8d6bffc818e"
+        }, 
+        "ec2_client_token": "rWJtC1506463935686", 
+        "ec2_dns_name": "ec2-34-215-49-61.us-west-2.compute.amazonaws.com", 
+        "ec2_ebs_optimized": false, 
+        "ec2_eventsSet": "", 
+        "ec2_group_name": "", 
+        "ec2_hypervisor": "xen", 
+        "ec2_id": "i-0e8864b177dd27b7c", 
+        "ec2_image_id": "ami-6e1a0117", 
+        "ec2_instance_type": "t2.nano", 
+        "ec2_ip_address": "34.215.49.61", 
+        "ec2_item": "", 
+        "ec2_kernel": "", 
+        "ec2_key_name": "ec2-key-pair", 
+        "ec2_launch_time": "2017-09-26T22:12:16.000Z", 
+        "ec2_monitored": false, 
+        "ec2_monitoring": "", 
+        "ec2_monitoring_state": "disabled", 
+        "ec2_persistent": false, 
+        "ec2_placement": "us-west-2c", 
+        "ec2_platform": "", 
+        "ec2_previous_state": "", 
+        "ec2_previous_state_code": 0, 
+        "ec2_private_dns_name": "ip-172-31-7-144.us-west-2.compute.internal", 
+        "ec2_private_ip_address": "172.31.7.144", 
+        "ec2_public_dns_name": "ec2-34-215-49-61.us-west-2.compute.amazonaws.com", 
+        "ec2_ramdisk": "", 
+        "ec2_reason": "", 
+        "ec2_region": "us-west-2", 
+        "ec2_requester_id": "", 
+        "ec2_root_device_name": "/dev/sda1", 
+        "ec2_root_device_type": "ebs", 
+        "ec2_security_group_ids": "sg-3cc0e645", 
+        "ec2_security_group_names": "WebDMZ", 
+        "ec2_sourceDestCheck": "true", 
+        "ec2_spot_instance_request_id": "", 
+        "ec2_state": "running", 
+        "ec2_state_code": 16, 
+        "ec2_state_reason": "", 
+        "ec2_subnet_id": "subnet-31673277", 
+        "ec2_tag_Name": "rustyeddy.com", 
+        "ec2_tag_project": "rustyeddy.com", 
+        "ec2_virtualization_type": "hvm", 
+        "ec2_vpc_id": "vpc-7e2a221c"
+      }
+    }
+  }, 
+  "ami_6e1a0117": [
+    "34.215.49.61"
+  ], 
+  "ec2": [
+    "34.215.49.61"
+  ], 
+  "i-0e8864b177dd27b7c": [
+    "34.215.49.61"
+  ], 
+  "key_ec2_key_pair": [
+    "34.215.49.61"
+  ], 
+  "platform_undefined": [
+    "34.215.49.61"
+  ], 
+  "security_group_WebDMZ": [
+    "34.215.49.61"
+  ], 
+  "tag_Name_rustyeddy_com": [
+    "34.215.49.61"
+  ], 
+  "tag_project_rustyeddy_com": [
+    "34.215.49.61"
+  ], 
+  "type_t2_nano": [
+    "34.215.49.61"
+  ], 
+  "us-west-2": [
+    "34.215.49.61"
+  ], 
+  "us-west-2c": [
+    "34.215.49.61"
+  ], 
+  "vpc_id_vpc_7e2a221c": [
+    "34.215.49.61"
+  ]
+}

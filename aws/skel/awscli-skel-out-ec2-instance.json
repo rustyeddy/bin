@@ -1,0 +1,149 @@
+{
+    "Reservations": [
+        {
+            "Groups": [
+                {
+                    "GroupName": "GroupName", 
+                    "GroupId": "GroupId"
+                }
+            ], 
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0, 
+                    "ImageId": "ImageId", 
+                    "InstanceId": "InstanceId", 
+                    "InstanceType": "InstanceType", 
+                    "KernelId": "KernelId", 
+                    "KeyName": "KeyName", 
+                    "LaunchTime": "1970-01-01T00:00:00", 
+                    "Monitoring": {
+                        "State": "State"
+                    }, 
+                    "Placement": {
+                        "AvailabilityZone": "AvailabilityZone", 
+                        "Affinity": "Affinity", 
+                        "GroupName": "GroupName", 
+                        "HostId": "HostId", 
+                        "Tenancy": "Tenancy", 
+                        "SpreadDomain": "SpreadDomain"
+                    }, 
+                    "Platform": "Platform", 
+                    "PrivateDnsName": "PrivateDnsName", 
+                    "PrivateIpAddress": "PrivateIpAddress", 
+                    "ProductCodes": [
+                        {
+                            "ProductCodeId": "ProductCodeId", 
+                            "ProductCodeType": "ProductCodeType"
+                        }
+                    ], 
+                    "PublicDnsName": "PublicDnsName", 
+                    "PublicIpAddress": "PublicIpAddress", 
+                    "RamdiskId": "RamdiskId", 
+                    "State": {
+                        "Code": 0, 
+                        "Name": "Name"
+                    }, 
+                    "StateTransitionReason": "StateTransitionReason", 
+                    "SubnetId": "SubnetId", 
+                    "VpcId": "VpcId", 
+                    "Architecture": "Architecture", 
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "DeviceName", 
+                            "Ebs": {
+                                "AttachTime": "1970-01-01T00:00:00", 
+                                "DeleteOnTermination": true, 
+                                "Status": "Status", 
+                                "VolumeId": "VolumeId"
+                            }
+                        }
+                    ], 
+                    "ClientToken": "ClientToken", 
+                    "EbsOptimized": true, 
+                    "EnaSupport": true, 
+                    "Hypervisor": "Hypervisor", 
+                    "IamInstanceProfile": {
+                        "Arn": "Arn", 
+                        "Id": "Id"
+                    }, 
+                    "InstanceLifecycle": "InstanceLifecycle", 
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "IpOwnerId", 
+                                "PublicDnsName": "PublicDnsName", 
+                                "PublicIp": "PublicIp"
+                            }, 
+                            "Attachment": {
+                                "AttachTime": "1970-01-01T00:00:00", 
+                                "AttachmentId": "AttachmentId", 
+                                "DeleteOnTermination": true, 
+                                "DeviceIndex": 0, 
+                                "Status": "Status"
+                            }, 
+                            "Description": "Description", 
+                            "Groups": [
+                                {
+                                    "GroupName": "GroupName", 
+                                    "GroupId": "GroupId"
+                                }
+                            ], 
+                            "Ipv6Addresses": [
+                                {
+                                    "Ipv6Address": "Ipv6Address"
+                                }
+                            ], 
+                            "MacAddress": "MacAddress", 
+                            "NetworkInterfaceId": "NetworkInterfaceId", 
+                            "OwnerId": "OwnerId", 
+                            "PrivateDnsName": "PrivateDnsName", 
+                            "PrivateIpAddress": "PrivateIpAddress", 
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "IpOwnerId", 
+                                        "PublicDnsName": "PublicDnsName", 
+                                        "PublicIp": "PublicIp"
+                                    }, 
+                                    "Primary": true, 
+                                    "PrivateDnsName": "PrivateDnsName", 
+                                    "PrivateIpAddress": "PrivateIpAddress"
+                                }
+                            ], 
+                            "SourceDestCheck": true, 
+                            "Status": "Status", 
+                            "SubnetId": "SubnetId", 
+                            "VpcId": "VpcId"
+                        }
+                    ], 
+                    "RootDeviceName": "RootDeviceName", 
+                    "RootDeviceType": "RootDeviceType", 
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "GroupName", 
+                            "GroupId": "GroupId"
+                        }
+                    ], 
+                    "SourceDestCheck": true, 
+                    "SpotInstanceRequestId": "SpotInstanceRequestId", 
+                    "SriovNetSupport": "SriovNetSupport", 
+                    "StateReason": {
+                        "Code": "Code", 
+                        "Message": "Message"
+                    }, 
+                    "Tags": [
+                        {
+                            "Key": "Key", 
+                            "Value": "Value"
+                        }
+                    ], 
+                    "VirtualizationType": "VirtualizationType"
+                }
+            ], 
+            "OwnerId": "OwnerId", 
+            "RequesterId": "RequesterId", 
+            "ReservationId": "ReservationId"
+        }
+    ], 
+    "NextToken": "NextToken"
+}
